@@ -1,15 +1,15 @@
 //A simple array variable diglaration-
-var numbers= [25, 39, 27, 95, 4, 55, 11, 222, 345, 214, 5453, 5425, 5423, 45, 99]
+var studentsName= ["jinuk", "mahabub", "rejuan", "salman", "hannan", "nayon", "ratan", "minu", "khushbo"];
 
 //find numbers array length-
-numbersLength = numbers.length;
+studentsNameLength = studentsName.length;
 
 //for-loop-advence-
-for(i = 0; i < numbersLength; i++){
+for(i = 0; i < studentsNameLength; i++){
 
   //single-number to arry index-number connection-
-  singleNumber = numbers[i]
+  singleStudent = studentsName[i]
 
   //for print-
-  console.log(singleNumber)
+  console.log(singleStudent)
 }
