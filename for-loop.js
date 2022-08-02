@@ -1,15 +1,9 @@
 //A simple array variable diglaration-
-var studentsName= ["jinuk", "mahabub", "rejuan", "salman", "hannan", "nayon", "ratan", "minu", "khushbo"];
+var studentsName= ["jinuk", "mahabub", "rejuan", "salman", "hannan", "nayon", "ratan", "minu", "khushbo", "mamun", "raju", "arigato gujaimach"];
 
-//find numbers array length-
-studentsNameLength = studentsName.length;
+for( i = 0; i < studentsName.length; i++){
 
-//for-loop-advence-
-for(i = 0; i < studentsNameLength; i++){
-
-  //single-number to arry index-number connection-
   singleStudent = studentsName[i]
 
-  //for print-
   console.log(singleStudent)
 }
