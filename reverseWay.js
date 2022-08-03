@@ -4,7 +4,7 @@ var num = 10;
 //reverseWay to find the num-
 while(num >= 1){
   console.log(num);
-  num--;
+  num -= 2;
 }
 
 
